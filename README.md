@@ -10,3 +10,5 @@ The simulation of the developed controller has been carried out using Matlab/Sim
 Matlab SISO design tool is used to simulate and implement PID controllers. For good step response, tuning process is necessary. The value of Kp, Kd, and Ki are varied incrementally in Simulink block until the response shows no overshoot.
 
 ![Fig 2](https://user-images.githubusercontent.com/96347878/162265100-7f7967b2-1d5c-4655-a6cb-6af059be2bb0.PNG)
+
+![Fig 3](https://user-images.githubusercontent.com/96347878/162268702-fe646068-60fd-43b3-87a4-ef0772ab152c.PNG)
