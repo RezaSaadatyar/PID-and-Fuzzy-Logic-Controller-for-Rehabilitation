@@ -1,0 +1,41 @@
+[System]
+Name='PID'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=0
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Error(E)'
+Range=[-15 15]
+NumMFs=5
+MF1='NL':'trimf',[-350 -10 -3]
+MF2='NM':'trimf',[-6 -3 0]
+MF3='Z':'trimf',[-0.25 0 0.25]
+MF4='PM':'trimf',[0 3 6]
+MF5='PL':'trimf',[3 10 350]
+
+[Input2]
+Name='Error(DE)'
+Range=[-1 1]
+NumMFs=2
+MF1='N':'trimf',[-40 -1 0]
+MF2='P':'trimf',[0 1 39]
+
+[Output1]
+Name='output'
+Range=[-1.5 1.5]
+NumMFs=5
+MF1='NL':'trimf',[-40 -1 -0.25]
+MF2='NM':'trimf',[-0.6 -0.25 0]
+MF3='Z':'trimf',[-0.08 0 0.08]
+MF4='PM':'trimf',[0 0.25 0.6]
+MF5='PL':'trimf',[0.25 1 40]
+
+[Rules]

@@ -1,0 +1,48 @@
+[System]
+Name='PIDfuzzy'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=7
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Error(E)'
+Range=[-15 15]
+NumMFs=5
+MF1='NL':'trimf',[-349.920634920635 -9.92063492063492 -2.92063492063492]
+MF2='NM':'trimf',[-6 -3 0]
+MF3='Z':'trimf',[-0.25 0 0.25]
+MF4='PM':'trimf',[0 3 6]
+MF5='PL':'trimf',[3 10 350]
+
+[Input2]
+Name='Error(DE)'
+Range=[-1 1]
+NumMFs=2
+MF1='N':'trapmf',[-19.1 -3.86 -1.00793650793651 0.00745]
+MF2='P':'trapmf',[-0.00265 0.986772486772487 6.57 16.3]
+
+[Output1]
+Name='output'
+Range=[-1.5 1.5]
+NumMFs=5
+MF1='NL':'trimf',[-40 -1 -0.25]
+MF2='NM':'trimf',[-0.6 -0.25 0]
+MF3='Z':'trimf',[-0.08 0 0.08]
+MF4='PM':'trimf',[0 0.25 0.6]
+MF5='PL':'trimf',[0.25 1 40]
+
+[Rules]
+5 0, 5 (1) : 1
+1 0, 1 (1) : 1
+3 1, 2 (1) : 1
+3 2, 4 (1) : 1
+3 0, 3 (1) : 1
+2 0, 2 (1) : 1
+4 0, 4 (1) : 1
