@@ -31,3 +31,5 @@ output. The two input contains an error (E)  and delta error (DE). While the out
 ![Fig 6](https://user-images.githubusercontent.com/96347878/162283803-59ce5af4-5de4-45fe-9657-12e76c2d94a7.png)
 
 ![Fig 9](https://user-images.githubusercontent.com/96347878/162286874-7224403d-d2bf-4fc8-976b-9291c5abd2d0.PNG)
+
+Reza.Saadatyar@outlook.com
