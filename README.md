@@ -12,3 +12,4 @@ Matlab SISO design tool is used to simulate and implement PID controllers. For g
 ![Fig 2](https://user-images.githubusercontent.com/96347878/162265100-7f7967b2-1d5c-4655-a6cb-6af059be2bb0.PNG)
 
 ![Fig 3](https://user-images.githubusercontent.com/96347878/162268702-fe646068-60fd-43b3-87a4-ef0772ab152c.PNG)
+![Fig 3](https://user-images.githubusercontent.com/96347878/162268980-7ed3ece7-dda2-471e-86df-c9addba2db31.PNG)
