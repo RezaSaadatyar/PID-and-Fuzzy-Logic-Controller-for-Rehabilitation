@@ -12,3 +12,7 @@ Matlab SISO design tool is used to simulate and implement PID controllers. For g
 ![Fig 2](https://user-images.githubusercontent.com/96347878/162265100-7f7967b2-1d5c-4655-a6cb-6af059be2bb0.PNG)
 
 ![Fig 3](https://user-images.githubusercontent.com/96347878/162269387-a472d9a4-4364-47ea-8245-ba9504440c86.PNG)
+
+![Fig 2](https://user-images.githubusercontent.com/96347878/162274751-733eebad-7d4b-4cda-8d8f-0990a5be2c65.PNG)
+
+* PID Cohen Coon Controller (PID-CC): 
