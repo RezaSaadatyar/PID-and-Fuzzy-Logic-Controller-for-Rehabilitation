@@ -15,4 +15,8 @@ Matlab SISO design tool is used to simulate and implement PID controllers. For g
 
 ![Fig 2](https://user-images.githubusercontent.com/96347878/162275035-f5b5e006-77b4-416b-b155-d3705f260395.PNG)
 
-* PID Cohen Coon Controller (PID-CC): 
+* PID Cohen Coon Controller (PID-CC): Three process characteristics are used in Cohen-Coon tuning: process gain, dead time, and time constant. Step tests are used to determine these characteristics.
+
+![Fig 4](https://user-images.githubusercontent.com/96347878/162278645-126dbe31-1743-4534-b173-b125779ebe1a.PNG)
+
+![Fig 3](https://user-images.githubusercontent.com/96347878/162278746-d57c304c-72ff-4e30-8831-edff4271b1da.PNG)
