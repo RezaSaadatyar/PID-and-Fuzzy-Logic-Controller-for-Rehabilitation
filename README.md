@@ -22,3 +22,12 @@ Matlab SISO design tool is used to simulate and implement PID controllers. For g
 ![Fig 3](https://user-images.githubusercontent.com/96347878/162278746-d57c304c-72ff-4e30-8831-edff4271b1da.PNG)
 
 ![Fig 3](https://user-images.githubusercontent.com/96347878/162280473-c48758d7-6eff-4e12-b367-bafd1a5ffce1.PNG)
+
+* Fuzzy Logic Controller(FLC): The FLC is being designed using Matlab toolbox Fuzzy Inference System(FIS). In FIS, there are two inputs and one
+output. The two input contains an error (E)  and delta error (DE). While the output is a Control signal to the plant.
+
+![Fig 5](https://user-images.githubusercontent.com/96347878/162283153-5bb32535-2183-40af-b1da-998b9350d438.PNG)
+
+![Fig 6](https://user-images.githubusercontent.com/96347878/162283803-59ce5af4-5de4-45fe-9657-12e76c2d94a7.png)
+
+![Fig 9](https://user-images.githubusercontent.com/96347878/162286874-7224403d-d2bf-4fc8-976b-9291c5abd2d0.PNG)
