@@ -32,4 +32,4 @@ output. The two input contains an error (E)  and delta error (DE). While the out
 
 ![Fig 9](https://user-images.githubusercontent.com/96347878/162286874-7224403d-d2bf-4fc8-976b-9291c5abd2d0.PNG)
 
-Reza.Saadatyar@outlook.com
+Reza.Saadatyar92@gmail.com
